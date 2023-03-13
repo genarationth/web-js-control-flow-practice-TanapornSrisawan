@@ -31,4 +31,8 @@ switch (dayNumber){
         console.log('Invalid day number')
         break;
 }
+//Ternary operator
 
+const password = 'password';
+password.lenght >= 12 ? console.log('password is very stronge so WELCOME!!!') : 
+password.lenght >=8 ? console.log('WELCOME') : console.log('SORRY!!! the password is too short');
